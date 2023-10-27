@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+
+        <meta charset = "UTF-8">
+        <script src = "calculate.js"></script>
+        <link rel = "stylesheet" href = "histogram.css">
+        <title>Histogram generator</title>
+
+    </head>
+
+    <body>
+
+        <h1>Histogram Generator</h1>
+
+        <input type = "file">
+
+        <section calss = "LowerBounds">
+            <h2>Lower bounds</h2>
+            <table>
+                <tr>
+                    <td>Max</td>
+                    <td><input value = "100.00" type = "number" id = "Max"></td>
+                </tr>
+                <tr>
+                    <td>A+</td>
+                    <td><input value = "95.00" type = "number" id = "A+"></td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td><input value = "90.00" type = "number" id = "A"></td>
+                </tr>
+                <tr>
+                    <td>A-</td>
+                    <td><input value = "85.00" type = "number" id = "A-"></td>
+                </tr>
+                <tr>
+                    <td>B+</td>
+                    <td><input value = "80.00" type = "number" id = "B+"></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td><input value = "75.00" type = "number" id = "B"></td>
+                </tr>
+                <tr>
+                    <td>B-</td>
+                    <td><input value = "70.00" type = "number" id = "B-"></td>
+                </tr>
+                <tr>
+                    <td>C+</td>
+                    <td><input value = "65.00" type = "number" id = "C+"></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td><input value = "60.00" type = "number" id = "C"></td>
+                </tr>
+                <tr>
+                    <td>C-</td>
+                    <td><input value = "55.00" type = "number" id = "C-"></td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td><input value = "50.00" type = "number" id = "D"></td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td><input value = "0.00" type = "number" id = "F"></td>
+                </tr>
+            </table>
+        </section>
+
+        <section class = "Histogram">
+            <h2>Histogram</h2>
+            <table>
+                <tr>
+                    <td>A+</td>
+                    <td id = "A+"></td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td id = "A"></td>
+                </tr>
+                <tr>
+                    <td>A-</td>
+                    <td id = "A-"></td>
+                </tr>
+                <tr>
+                    <td>B-</td>
+                    <td id = "B-"></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td id = "B"></td>
+                </tr>
+                <tr>
+                    <td>B-</td>
+                    <td id = "B-"></td>
+                </tr>
+                <tr>
+                    <td>C+</td>
+                    <td id = "C+"></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td id = "C"></td>
+                </tr>
+                <tr>
+                    <td>C-</td>
+                    <td id = "C-"></td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td id = "D"></td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td id = "F"></td>
+                </tr>
+            </table>
+        </section>
+
+        <section class = "Stats">
+            <h2>Stats</h2>
+            <table>
+                <tr>
+                    <td>Highest</td>
+                    <td id = "Highest"></td>
+                </tr>
+                <tr>
+                    <td>Lowest</td>
+                    <td id = "Lowest"></td>
+                </tr>
+                <tr>
+                    <td>Mean</td>
+                    <td id = "Mean"></td>
+                </tr>
+                <tr>
+                    <td>Median</td>
+                    <td id = "Median"></td>
+                </tr>
+            </table>
+        </section>
+
+    </body>
+
+</html>
